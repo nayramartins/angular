@@ -9,21 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var patient_content_component_1 = require('./components/patient-content.component');
-var header_component_1 = require('./components/header.component');
-var footer_component_1 = require('./components/footer.component');
-var AppComponent = (function () {
-    function AppComponent() {
+var AppFooter = (function () {
+    function AppFooter() {
     }
-    AppComponent = __decorate([
+    AppFooter = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: './app/html/base.html',
-            directives: [header_component_1.AppHeader, patient_content_component_1.patientContent, footer_component_1.AppFooter]
+            selector: 'app-footer',
+            templateUrl: './app/html/footer.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], AppFooter);
+    return AppFooter;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.AppFooter = AppFooter;
+//# sourceMappingURL=footer.component.js.map

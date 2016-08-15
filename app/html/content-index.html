@@ -1,0 +1,22 @@
+<main class="mdl-layout__content">
+	<div class="mdl-grid">
+		<div class="mdl-grid mdl-cell--12-col">
+			<h2>{{contentTitle}}</h2>
+		</div>
+	</div>
+	<div class="mdl-grid">		
+		<div class="mdl-cell mdl-cell--4-col" *ngFor="let cardText of cardTexts">
+			<div class="mdl-card mdl-shadow--2dp mdl-cell--12-col">
+				<div class="mdl-card__title">
+					<h2 class="mdl-card__title-text">{{cardText.cardTitle}}</h2>
+				</div>
+				<div class="mdl-card__supporting-text">
+					{{cardText.cardContent}}
+				</div>
+				<div class="mdl-card__actions app-button">
+					<a href="{{cardText.cardLink}}" class="mdl-button mdl-js-button mdl-button--fab"><i class="material-icons">forward</i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>

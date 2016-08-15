@@ -1,0 +1,15 @@
+.mdl-layout__content{
+	width: 100%;
+}
+
+.mdl-card__supporting-text{
+	min-height: 60px;
+}
+
+.mdl-card__actions.app-button{
+	text-align: right;
+}
+
+.mdl-card__actions .mdl-button .material-icons{
+	color: #b9b6b6;
+}

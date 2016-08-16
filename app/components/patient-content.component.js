@@ -33,7 +33,7 @@ var patientContent = (function () {
                 'cardContent': "This text might describe the photo and provide further information, such as where and when it was taken.",
                 'cardLink': "#"
             }, {
-                'cardTitle': "Card Five",
+                'cardTitle': "Card Six",
                 'cardContent': "This text might describe the photo and provide further information, such as where and when it was taken.",
                 'cardLink': "#"
             }];
